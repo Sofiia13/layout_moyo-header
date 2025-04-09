@@ -41,12 +41,14 @@ body {
 }
 
 .item {
+  display: flex;
   list-style: none;
   text-transform: uppercase;
   align-items: center;
   cursor: pointer;
   position: relative;
-  padding: 22.5px 0;
+
+  /* padding: 22.5px 0; */
 }
 
 .item:not(:last-child) {
@@ -56,6 +58,7 @@ body {
 .link {
   text-decoration: none;
   color: black;
+  padding: 22.5px 0;
 }
 
 .item.is-active::after {
@@ -69,14 +72,14 @@ body {
   border-radius: 8px;
 }
 
-.item .link:hover {
+.link:hover {
   color: var(--main-color);
 
-  padding: 22.5px 0;
+  /* padding: 22.5px 0; */
 }
 
 .link.is-active {
   color: var(--main-color);
 
-  padding: 22.5px 0;
+  /* padding: 22.5px 0; */
 }
