@@ -56,8 +56,11 @@ body {
 }
 
 .link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: black;
+  height: 100%;
 }
 
 .item.is-active::after {
